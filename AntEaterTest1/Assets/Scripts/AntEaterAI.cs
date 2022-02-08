@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AntEaterAI : MonoBehaviour
 {
-    public UnityEngine.AI.NavMeshAgent agent;
+/*    public UnityEngine.AI.NavMeshAgent agent;
 
     public Transform player;
 
@@ -91,7 +91,7 @@ public class AntEaterAI : MonoBehaviour
     private void ResetAttack()
     {
         alreadyAttacked = false;
-    }
+    }*/
 
     // Start is called before the first frame update
     void Start()
@@ -102,7 +102,7 @@ public class AntEaterAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Check for sight and attack range
+/*        //Check for sight and attack range
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
 
@@ -119,6 +119,6 @@ public class AntEaterAI : MonoBehaviour
         if (playerInSightRange && playerInAttackRange)
         {
             AttackPlayer();
-        }
+        }*/
     }
 }

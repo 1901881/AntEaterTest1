@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class AIController : MonoBehaviour
 {
-    public NavMeshAgent navMeshAgent;
+/*    public NavMeshAgent navMeshAgent;
     public float startWaitTime = 4;
     public float timeToRotate = 4;
     public float speedWalk = 6;
@@ -33,21 +33,21 @@ public class AIController : MonoBehaviour
     bool m_PlayerOnRange;
     bool m_PlayerNear;
     bool m_IsPatrol;
-    bool m_CaughtPlayer;
+    bool m_CaughtPlayer;*/
 
 
 
     // Start is called before the first frame update
     void Start()
     {
-        m_PlayerPosition = Vector3.zero;
+/*        m_PlayerPosition = Vector3.zero;
         m_IsPatrol = true;
         m_CaughtPlayer = false;
         m_PlayerInRange = false;
         m_WaitTime = startWaitTime;
         mTimeToRotate = timeToRotate;
 
-        m
+        */
     }
 
     // Update is called once per frame
